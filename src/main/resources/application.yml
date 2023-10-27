@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: demo-springboot-door
+
+facedamon:
+  door:
+    enabled: true
+    user-str: facedamon,aaa,ccc #白名单用户id，多个逗号隔开
